@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Validator</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <form id="form" class="form">
+            <h2 class="formTitle">Create account</h2>
+            <div class="inputGroup">
+                <label for="username" class="label">Username</label>
+                <input name="username" id="username" type="text" class="input" />
+                <small class="errorMessage">Error message</small>
+            </div>
+            <div class="inputGroup">
+                <label for="email" class="label">Email</label>
+                <input name="email" id="email" type="text" class="input" />
+                <small class="errorMessage">Error message</small>
+            </div>
+            <div class="inputGroup">
+                <label for="password" class="label">Password</label>
+                <input name="password" id="password" type="password" class="input" />
+                <small class="errorMessage">Error message</small>
+            </div>
+            <div class="inputGroup">
+                <label for="confPassword" class="label">Confirm password</label>
+                <input name="confPassword" id="confPassword" type="password" class="input" />
+                <small class="errorMessage">Error message</small>
+            </div>
+            <button type="submit" class="btn btn--submit">Submit</button>
+        </form>
+
+        <!-- JS Scripts -->
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
